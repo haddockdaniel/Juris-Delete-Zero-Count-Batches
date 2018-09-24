@@ -446,6 +446,10 @@ namespace JurisUtilityBase
                 DoDaFix();
             else
                 MessageBox.Show("Please select at least one checkbox", "Selection error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+
+
+
         }
 
         private void buttonReport_Click(object sender, EventArgs e)
