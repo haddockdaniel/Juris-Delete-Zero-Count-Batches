@@ -191,7 +191,7 @@ namespace JurisUtilityBase
                                 break;
                             case 4: //Journal Entry
                                 items = "";
-                                batches = _jurisUtility.RecordsetFromSQL("select distinct jebbatchnbr  from JEBatch   where jebreccount=0");
+                                batches = _jurisUtility.RecordsetFromSQL("select distinct jebbatchnbr  from JEBatch   where jebreccount=0 and jebbatchnbr not in (select arpjebatchnbr from arpostbatch)");
                                 if (batches.Tables[0].Rows.Count != 0)
                                 {
                                     foreach (DataRow dr in batches.Tables[0].Rows)
