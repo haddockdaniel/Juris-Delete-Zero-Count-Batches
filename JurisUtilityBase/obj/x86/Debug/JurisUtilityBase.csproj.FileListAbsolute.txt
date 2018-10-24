@@ -92,12 +92,12 @@ C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count 
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.Properties.Resources.resources
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.SplashScreen.resources
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.GenerateResource.Cache
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\Delete Zero Batch.exe.config
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\Delete Zero Batch.exe.manifest
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\Delete Zero Batch.application
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\Delete Zero Batch.exe
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\Delete Zero Batch.pdb
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\Delete Zero Batch.exe.manifest
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\Delete Zero Batch.application
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\Delete Zero Batch.exe
-C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\Delete Zero Batch.pdb
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe.config
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe.manifest
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.application
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.pdb
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.exe.manifest
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.application
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.exe
+C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.pdb

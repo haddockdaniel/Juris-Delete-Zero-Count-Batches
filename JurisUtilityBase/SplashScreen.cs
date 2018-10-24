@@ -31,9 +31,14 @@ namespace JurisUtilityBase
         {
             this.labelVersion.Text = @"Version " + Application.ProductVersion;
             this.labelCopyright.Text = @"Copyright © 1996-" + DateTime.Now.Year;
-            this.labelAppName.Text = Application.ProductName;
+           // this.labelAppName.Text = Application.ProductName;
             this.labelCompany.Text = Application.CompanyName;
             this.Refresh();
+        }
+
+        private void labelAppName_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

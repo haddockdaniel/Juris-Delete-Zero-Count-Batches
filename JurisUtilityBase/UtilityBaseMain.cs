@@ -111,6 +111,7 @@ namespace JurisUtilityBase
             string items = "";
             if (checkedListBox1.Items.Count > 0) //did they select at least one checkbox?
             {
+                int total = checkedListBox1.Items.Count;
                 for (int i = 0; i < (checkedListBox1.Items.Count); i++)
                 {
                     if (checkedListBox1.GetItemChecked(i))
@@ -132,7 +133,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from CashReceiptsBatch   where crbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL); 
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 1: //Check
@@ -150,7 +151,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from CheckBatch where cbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 2: //Credit Memo
@@ -168,7 +169,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from CreditMemoBatch where cmbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 3: //Expense
@@ -186,7 +187,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from ExpenseBatch where ebreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 4: //Journal Entry
@@ -204,7 +205,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from JEBatch   where jebreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 5: //Manual Bill
@@ -222,7 +223,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from ManualBillBatch where mbbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 6: //Time Batch
@@ -243,7 +244,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from TimeBatch where tbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 7: //Trust Adjustment
@@ -261,7 +262,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from TrAdjBatch where tabreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
                             case 8: //Voucher
@@ -279,7 +280,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from VoucherBatch where vbreccount=0";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
-                                UpdateStatus("Updating database...", i, 9);
+                                UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
                                 break;
 
@@ -287,7 +288,7 @@ namespace JurisUtilityBase
                     }
                 }
 
-                UpdateStatus("Updating database...", 9, 9);
+                UpdateStatus("Updating database...", total, total);
             }
             else
                 MessageBox.Show("At least one checkbox needs to be selected");
@@ -493,7 +494,7 @@ namespace JurisUtilityBase
                             reportSQL = reportSQL + " select ebbatchnbr as BatchNbr, ebcomment as BatchComment, ebstatus as BatchStatus, ebdateentered as DateEntered, 'Expense Batch' as BatchType  from ExpenseBatch where ebreccount=0 union all";
                             break;
                         case 4:
-                            reportSQL = reportSQL + " select jebbatchnbr as BatchNbr, jebcomment as BatchComment, jebstatus as BatchStatus, jebentereddate  as DateEntered, 'Journal Entry Batch' as BatchType  from JEBatch where jebreccount=0 union all";
+                            reportSQL = reportSQL + " select jebbatchnbr as BatchNbr, jebcomment as BatchComment, jebstatus as BatchStatus, jebentereddate  as DateEntered, 'Journal Entry Batch' as BatchType  from JEBatch where jebreccount=0 and jebbatchnbr not in (select arpjebatchnbr from arpostbatch) union all";
                             break;
                         case 5:
                             reportSQL = reportSQL + " select mbbbatchnbr as BatchNbr, mbbcomment as BatchComment, mbbstatus as BatchStatus, mbbdateentered  as DateEntered, 'Manual Bill Batch' as BatchType  from ManualBillBatch   where mbbreccount=0 union all";

@@ -60,8 +60,9 @@
             this.labelAppName.Name = "labelAppName";
             this.labelAppName.Size = new System.Drawing.Size(238, 23);
             this.labelAppName.TabIndex = 1;
-            this.labelAppName.Text = "[App Name]";
+            this.labelAppName.Text = "JPS - Delete Zero Batch";
             this.labelAppName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelAppName.Click += new System.EventHandler(this.labelAppName_Click);
             // 
             // horizontalLine1
             // 
@@ -126,7 +127,7 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(331, 331);
+            this.ClientSize = new System.Drawing.Size(327, 327);
             this.ControlBox = false;
             this.Controls.Add(this.labelCompany);
             this.Controls.Add(this.labelCopyright);
