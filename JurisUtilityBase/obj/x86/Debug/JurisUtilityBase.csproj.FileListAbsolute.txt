@@ -101,3 +101,20 @@ C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count 
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.application
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.exe
 C:\Users\haddocdx\Documents\Visual Studio 2012\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.pdb
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csprojResolveAssemblyReference.cache
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.exe
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.pdb
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe.config
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe.manifest
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.application
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.exe
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\bin\x86\Debug\JPS - Delete Zero Batch.pdb
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.ResolveComReference.cache
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.PrinterDialog.resources
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.ReportDisplay.resources
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.UtilityBaseMain.resources
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.Properties.Resources.resources
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.SplashScreen.resources
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JurisUtilityBase.csproj.GenerateResource.Cache
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.exe.manifest
+D:\Projects\Juris Delete Zero Count Batches\JurisUtilityBase\obj\x86\Debug\JPS - Delete Zero Batch.application

@@ -131,7 +131,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=5300 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from CashReceiptsBatch   where crbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL); 
+                                  //  _jurisUtility.ExecuteNonQueryCommand(0, SQL); 
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -149,7 +149,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=7300 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from CheckBatch where cbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -167,7 +167,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=5200 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from CreditMemoBatch where cmbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                    //_jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -185,7 +185,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=5000 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from ExpenseBatch where ebreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -203,7 +203,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=4700 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from JEBatch   where jebreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -221,7 +221,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=5100 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from ManualBillBatch where mbbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                    //_jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -236,13 +236,13 @@ namespace JurisUtilityBase
 
                                     items = items.TrimEnd(',');
                                     SQL = "delete from TimeBatchImportError where TBIEBatchNbr in (" + items + ")";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from TimeBatchDetail where TBDBatch in (" + items + ")";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from documenttree where dtdocclass=4900 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from TimeBatch where tbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -260,7 +260,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=7500 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from TrAdjBatch where tabreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                   // _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
@@ -278,7 +278,7 @@ namespace JurisUtilityBase
                                     SQL = "delete from documenttree where dtdocclass=7200 and dtkeyL in (" + items + ") and dtdoctype = 'R'";
                                     _jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                     SQL = "delete from VoucherBatch where vbreccount=0";
-                                    _jurisUtility.ExecuteNonQueryCommand(0, SQL);
+                                    //_jurisUtility.ExecuteNonQueryCommand(0, SQL);
                                 }
                                 UpdateStatus("Updating database...", i, total);
                                 batches.Clear();
